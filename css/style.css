@@ -1,0 +1,113 @@
+/* !--> Home SECTION  <-- */
+
+.home{
+    background-image: linear-gradient(rgba(190, 52, 52, 0.5), rgba(175, 50, 50, 0.5)), url(../imges/events-heavenly-header.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    width: 100%;
+    position: relative;
+   
+}
+.homeContent{
+   height: 90vh;
+   transition: all 0.3s;
+}
+
+
+.leftMenu{
+    width: 0%;
+    height: 100%;
+    background-color: #111;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.leftMenu a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+.leftMenu .closebtn{
+    margin-left: 170px;
+    font-size: 36px;
+}
+
+.leftMenu a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+/* !--> Slider SECTION  <-- */
+
+.slider
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+}
+
+.content
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+.first{
+    display:block;
+}
+
+
+
+/* !--> Count SECTION  <-- */
+
+.count{
+    background-image: linear-gradient(rgba(190, 52, 52, 0.5), rgba(175, 50, 50, 0.5)), url(../imges/invitation-2508607__340.jpg);
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* !-->  INFO SECTION  <-- */
+
+.contactInfo h2 {
+    font-weight: 700;
+    
+}
+.contactInfo h6 {
+    font-weight: 800;
+    
+}
+.contactInfo .icons {
+    font-size: 16px;
+    
+}
+.contactInfo .mail {
+    color: #D62E33;
+    
+}
+.contactInfo .icons .iconCirc{
+    width: 40px;
+    height: 40px;
+    transition: all 0.1s;
+}
+.contactInfo .icons .iconCirc:hover{
+    color: white;
+    background-color: #D62E33;
+    border-color: #D62E33 !important;
+    
+}
